@@ -29,14 +29,16 @@ def engagement(shealth,swep,sarm,bwep,barm,sactor,bactor):
         else:
             print('tie!')
             sleep(2)
+            
+        print('')
 
     if stevestat[0]<= 0:
         print(bobstat[2] + ' wins!')
     elif bobstat[0]<= 0:
         print(stevestat[2] + ' wins!')
 
-#print('Chris')
-#sequip = equip(5, 15)
-#print('Prison Guard')
-#bequip = equip(2, 17)
-#engagement(10, *sequip, *bequip, 'You', 'Prison Guard')
+print('Chris')
+sequip = equip(5, 15)
+print('Prison Guard')
+bequip = equip(2, 17)
+engagement(10, *sequip, *bequip, 'You', 'Prison Guard')
